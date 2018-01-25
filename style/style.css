@@ -1,0 +1,38 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tirer
+{
+    margin-right: 40%;
+}
+
+#presentation
+{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas
+{
+    background-color: olivedrab;
+}
+
+#gagnant
+{
+    text-align: center;
+    font-size: 2em;
+}
